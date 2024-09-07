@@ -1,0 +1,195 @@
+body {
+    margin: 0 0 0 0;
+    color: aliceblue;
+    background-image: url(Pictures/GIFS/BG1.gif);
+    background-size: 13px;
+    width: auto;
+    height: auto;
+    text-align: -webkit-center;
+}
+.content {
+    box-sizing: border-box;
+    border: 0px solid white;
+    padding: 3px;
+}
+.grid {
+    box-shadow: #86dbee 0px 0px 50px;
+    background-image: url(Pictures/GIFS/BG2.gif);
+    background-size: 70px;
+    display: inline-grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    grid-template-columns: minmax(auto) 1fr 4fr 1fr;
+    grid-template-rows: minmax (100px 100px 500px 100px);
+    grid-template-areas: 
+    'header header header'
+    'scotta scotta scotta'
+    'leftbar footer rightbar'
+    'main main main';
+}
+.page-header {
+    grid-area: header;
+}
+.page-scotta {
+    grid-area: scotta;
+}
+.page-leftbar {
+    grid-area: leftbar;
+}
+.page-rightbar {
+    grid-area: rightbar;
+}
+.page-footer {
+    grid-area: footer;
+    padding: 10px;
+}
+.page-main {
+    grid-area: main;
+}
+.note {
+    border: 3px solid #dbeaea92;
+    background: linear-gradient(0deg, #2d5d77dd 0%, #153b52e7 50%, #021f33e4 100%);
+    overflow-wrap: break-word;
+    width: 850px;
+    padding: 15px;
+}
+p {
+    font-size: 15px;
+}
+
+.left-images img{
+    display: inline-block;
+    width: 200px;
+    border: 3px inset gray;
+}
+.card1 {
+    padding: 5px;
+}
+.right-images img{
+    padding: 10px;
+    display: block;
+     width:100px;
+     height: auto;
+}
+.low-images {
+    display: inline-flex;
+    width: 1300px;
+    height: 100px;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 15px;
+}
+
+/*----- custom scrollbar ----- */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #214e55;
+    box-shadow: inset -1px -1px #000000, inset 1px 1px #3d747b, inset -2px -2px #002c32, inset 2px 2px #3d747b;
+}
+::-webkit-scrollbar-corner {
+    background: #1d3032;
+}
+
+.low-images1 {
+    animation: jumping 1s 0s 1;
+    animation-iteration-count: infinite;
+}
+.low-images2 {
+    animation: jumping 1s 0.2s 1;
+    animation-iteration-count: infinite;
+}
+.low-images3 {
+    animation: jumping 1s 0.5s 1;
+    animation-iteration-count: infinite;
+}
+.low-images4 {
+    animation: jumping 1s 0.8s 1;
+    animation-iteration-count: infinite;
+}
+.low-images5 {
+    animation: jumping 1s 1s 1;
+    animation-iteration-count: infinite;
+}
+.low-images6 {
+    animation: jumping 1s 1.2s 1;
+    animation-iteration-count: infinite;
+}
+.low-images7 {
+    animation: jumping 1s 1.5s 1;
+    animation-iteration-count: infinite;
+}
+.low-images8 {
+    animation: jumping 1s 1.8s 1;
+    animation-iteration-count: infinite;
+}
+.low-images9 {
+    animation: jumping 1s 2s 1;
+    animation-iteration-count: infinite;
+}
+.low-images10 {
+    animation: jumping 1s 2.2s 1;
+    animation-iteration-count: infinite;
+}
+.low-images11 {
+    animation: jumping 1s 2.5s 1;
+    animation-iteration-count: infinite;
+}
+.low-images11 {
+    animation: jumping 1s 2.5s 1;
+    animation-iteration-count: infinite;
+}
+.low-images12 {
+    animation: jumping 1s 2.8s 1;
+    animation-iteration-count: infinite;
+}
+.low-images13 {
+    animation: jumping 1s 3.0s 1;
+    animation-iteration-count: infinite;
+}
+.low-images14 {
+    animation: jumping 1s 3.2s 1;
+    animation-iteration-count: infinite;
+}
+.low-images15 {
+    animation: jumping 1s 3.5s 1;
+    animation-iteration-count: infinite;
+}
+.low-images16 {
+    animation: jumping 1s 3.8s 1;
+    animation-iteration-count: infinite;
+}
+.low-images17 {
+    animation: jumping 1s 4.0s 1;
+    animation-iteration-count: infinite;
+}
+.low-images18 {
+    animation: jumping 1s 4.2s 1;
+    animation-iteration-count: infinite;
+}
+.low-images19 {
+    animation: jumping 1s 4.5s 1;
+    animation-iteration-count: infinite;
+}
+.low-images20 {
+    animation: jumping 1s 4.8s 1;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jumping {
+    0% {
+        transform: translateY(0%);
+        animation-timing-function: ease-out;
+    }
+    50% {
+        transform: translateY(-50%);
+        animation-timing-function: ease-in;
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
