@@ -46,6 +46,11 @@ body {
 .page-main {
     grid-area: main;
 }
+.top-section a {
+    font-size: 20px;
+    margin: -30px 0 0 -200px;
+    position: absolute;
+}
 .note {
     border: 3px solid #dbeaea92;
     background: linear-gradient(0deg, #2d5d77dd 0%, #153b52e7 50%, #021f33e4 100%);
