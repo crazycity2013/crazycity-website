@@ -104,36 +104,7 @@ h2 {
     text-shadow: #000000 0px 0px 5px, #000000 0px 0px 5px, #5d6a6f 0px 0px 10px, #ffffff 0px 0px 20px;
    color: #eb0000;
 }
-.ep a {
-    text-decoration: none;
-}
-.ep {
-    border: 0px solid white;
-    display: inline-block;
-    width: 80px;
-    height: auto;
-    padding: 20px;
-    text-align: center;
-    margin-top: 10px;
-}
-.ep img {
-    width: 80px;
-    margin-top: -15px;
-    box-shadow: #000000 0px 10px 80px;
-}
-h1 {
-    font-size: 15px;
-    text-shadow: 0 0 5px #507577;
-    color: #8CB9BC;
-    margin-top: 3px;
-}
-p {
-    font-size: 9px;
-    font-style: italic;
-    text-shadow: 1px 0 5px #4A7275;
-    color: #60A0A5;
-    margin-top: -9px;
-}
+
 /*----- custom scrollbar ----- */
 ::-webkit-scrollbar{
     width: 10px;
