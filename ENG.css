@@ -1,14 +1,14 @@
 body {
     margin: 0 0 0 0;
     background-image: url(Pictures/BGKSJ.png);
-    background-size: cover;
+    background-size: 400px 600px;
     width: auto;
     height: auto;
     text-align: -webkit-center;
 }
 .content {
     box-sizing: border-box;
-    border: 0px solid white;
+    border: 0px solid #ff0000;
 }
 .grid {
     box-shadow: #ffffff 0px 0px 50px;
@@ -37,7 +37,7 @@ body {
 .page-footer {
     grid-area: footer;
     text-align: left;
-    width: 1400px;
+    width: 500px;
     height: 400px;
     padding: 10px;
 }
@@ -46,93 +46,95 @@ body {
     height: 0px;
 }
 .gifksj {
-    margin: 2px 0 0 150px;
+    margin: 6px 0 0 65px;
     position: absolute;
 }
 .tt {
     position: absolute;
-    margin: 80px 0 0 20px;
+    margin: 55px 0 0 10px;
 }
 .TEXT {
+    font-family: Noto Sans Lao Light;
     text-shadow: #727b85 0px 3px 10px;
     border: 0px solid white;
-    margin: 110px 0 0 580px;
-    width: 760px;
-    font-size: 14px;
+    margin: 53px 0 0 238px;
+    width: 245px;
+    font-size: 4.5px;
     position: absolute;
-    color: #5c7074;
+    color: #5d797e;
 }
 .cc {
     text-shadow: #3a434e 2px 4px 5px;
-    margin: 72px 0 0 590px;
-    font-size: 18px;
+    margin: 35px 0 0 240px;
+    font-size: 8px;
     position: absolute;
     color: #374a51;
-    width: 740px;
+    width: 250px;
 }
 h2 {
     text-shadow: #2b3842 1px 5px 5px;
-    margin: 35px 0 0 590px;
-    font-size: 25px;
+    margin: 20px 0 0 235px;
+    font-size: 10px;
     position: absolute;
     color: #374a51;
-    width: 740px;
+    width: 250px;
 }
 .tag {
     text-shadow: #910000b2 2px 3px 5px;
-    margin: 220px 0 0 590px;
-    font-size: 15px;
+    margin: 110px 0 0 305px;
+    font-size: 5px;
     position: absolute;
     color: #730000;
-    width: 740px;
+    width: 100px;
 }
 .language {
-    margin: 250px 0 0 590px;
-    font-size: 15px;
+    margin: 120px 0 0 305px;
+    font-size: 6px;
     position: absolute;
-    width: 740px;
+    width: 100px;
 }
 .language a {
     text-shadow: #000000 0px 0px 5px,#000000 0px 0px 5px, #000000 0px 0px 10px;
-    color: #900000;
+    color: #700000;
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     display: inline-block;
 }
 .language a.active {
-    text-shadow: #000000 0px 0px 5px, #000000 0px 0px 5px, #5d6a6f 0px 0px 10px, #afafaf 0px 0px 20px;
-   color: #b62f2f;
+    text-shadow: #000000 0px 0px 5px, #000000 0px 0px 5px, #5d6a6f 0px 0px 10px, #ffffff 0px 0px 20px;
+   color: #eb0000;
+}
+.ep a {
+    text-decoration: none;
 }
 .ep {
     border: 0px solid white;
     display: inline-block;
-    width: 153px;
+    width: 80px;
     height: auto;
     padding: 20px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .ep img {
-    width: 150px;
-    height: 100px;
+    width: 80px;
     margin-top: -15px;
-    margin-left: -5px;
     box-shadow: #000000 0px 10px 80px;
 }
 h1 {
-    font-family: Perpetua Titling MT;
-    font-size: 20px;
+    font-family: Noto Sans Lao Medium;
+    font-size: 9px;
     text-shadow: 0 0 5px #507577;
     color: #8CB9BC;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 p {
-    font-family: Perpetua;
-    font-size: 16px;
+    font-family: Noto Sans Lao Light;
+    font-size: 6px;
     font-style: italic;
     text-shadow: 1px 0 5px #4A7275;
     color: #60A0A5;
-    margin-top: -10px;
+    margin-top: -7px;
 }
 /*----- custom scrollbar ----- */
 ::-webkit-scrollbar{
