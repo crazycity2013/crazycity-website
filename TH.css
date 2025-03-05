@@ -7,6 +7,12 @@ body {
     height: auto;
     text-align: -webkit-center;
 }
+a {
+    cursor: url(Pictures/TRGMPIC/cursor.cur), pointer;
+}
+input, textarea {
+    cursor: url(Pictures/TRGMPIC/cursor.cur), text;
+}
 .content {
     box-sizing: border-box;
     border: 0px solid #ff0000;
@@ -151,7 +157,7 @@ button {
     width: 30px;
     height: 16px;
     margin: 31px -5px;
-    cursor: url(TPictures/RGMPIC/cursor.cur), pointer;
+    cursor: url(Pictures/TRGMPIC/cursor.cur), pointer;
 }
 #result {
     color: #a00000e9;
