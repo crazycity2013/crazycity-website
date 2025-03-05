@@ -7,12 +7,6 @@ body {
     height: auto;
     text-align: -webkit-center;
 }
-a {
-    cursor: url(TPictures/RGMPIC/cursor.cur), pointer;
-}
-input, textarea {
-    cursor: url(Pictures/TRGMPIC/cursor.cur), text;
-}
 .content {
     box-sizing: border-box;
     border: 0px solid #ff0000;
