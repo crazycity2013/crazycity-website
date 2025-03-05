@@ -1,10 +1,17 @@
 body {
     margin: 0 0 0 0;
     background-image: url(Pictures/TRGMPIC/BGKSJ.png);
+        cursor: url(TPictures/RGMPIC/cursor.cur), auto;
     background-size: 400px 600px;
     width: auto;
     height: auto;
     text-align: -webkit-center;
+}
+a {
+    cursor: url(TPictures/RGMPIC/cursor.cur), pointer;
+}
+input, textarea {
+    cursor: url(Pictures/TRGMPIC/cursor.cur), text;
 }
 .content {
     box-sizing: border-box;
@@ -150,7 +157,7 @@ button {
     width: 30px;
     height: 16px;
     margin: 31px -5px;
-    cursor: pointer;
+    cursor: url(TPictures/RGMPIC/cursor.cur), pointer;
 }
 #result {
     color: #a00000e9;
