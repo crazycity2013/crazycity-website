@@ -12,6 +12,7 @@ body {
 }
 .grid {
     box-shadow: #ffffff 0px 0px 50px;
+    border: ridge #7ea7aa7a 5px;
     background: linear-gradient(0deg, #040a0ae9 28%, #2a3336c8 49%, #383838c2 59%);
     display: inline-grid;
     column-gap: 10px;
@@ -20,9 +21,9 @@ body {
     grid-template-rows: minmax(100px 100px 500px 100px);
     grid-template-areas: 
     'header header header'
-    'art title title'
-    'footer footer footer'
-    'main main main';
+    'art gif title'
+    'main main main'
+    'footer footer footer';
 }
 .page-header {
     grid-area: header;
@@ -30,19 +31,39 @@ body {
 .page-art {
     grid-area: art;
     height: 20px;
+    background-color: #000000;
+    border: 2px inset gray;
+    width: 130px;
+    height: 100px;
+    margin-left: 20px;
+    
+}
+.page-gif {
+    grid-area: gif;
+    background-color: #000000;
+    border: 2px inset gray;
+    width: 130px;
+    height: 100px;
+    margin-right: 0px;
 }
 .page-title {
     grid-area: title;
-}
-.page-footer {
-    grid-area: footer;
-    text-align: left;
-    width: 500px;
-    height: 400px;
-    padding: 10px;
+    background-color: #000000;
+    border: 2px inset gray;
+    width: 180px;
+    height: 100px;
+    margin-right: 20px;
+    display: flex;
 }
 .page-main {
     grid-area: main;
+    text-align: left;
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+}
+.page-footer {
+    grid-area: footer;
     height: 0px;
 }
 .gifksj {
@@ -66,7 +87,7 @@ body {
 .cc {
     text-shadow: #3a434e 2px 4px 5px;
     margin: 35px 0 0 240px;
-    font-size: 7px;
+    font-size: 8px;
     position: absolute;
     color: #374a51;
     width: 250px;
@@ -74,14 +95,14 @@ body {
 h2 {
     text-shadow: #2b3842 1px 5px 5px;
     margin: 20px 0 0 235px;
-    font-size: 9px;
+    font-size: 10px;
     position: absolute;
     color: #374a51;
     width: 250px;
 }
 .tag {
     text-shadow: #910000b2 2px 3px 5px;
-    margin: 106px 0 0 305px;
+    margin: 110px 0 0 305px;
     font-size: 5px;
     position: absolute;
     color: #730000;
@@ -104,6 +125,40 @@ h2 {
     text-shadow: #000000 0px 0px 5px, #000000 0px 0px 5px, #5d6a6f 0px 0px 10px, #ffffff 0px 0px 20px;
    color: #eb0000;
 }
+.page-title img {
+    margin:  16px 114px;
+    position: absolute;
+}
+.page-title h2 {
+    font-family: Angsana New;
+    margin: 5px 8px;
+    font-size: 10px;
+    font-style: oblique;
+    color: #637c7f;
+    width: 118px;
+    line-height: 10px;
+}
+input {
+    font-family: 'Courier New', Courier, monospace; font-style: oblique; font-size: 10px; font-weight: bold;
+    width: 70px;
+    height: 12px;
+    margin: 30px 10px;
+}
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold;
+    font-size: 6px;
+    width: 30px;
+    height: 16px;
+    margin: 31px -5px;
+    cursor: pointer;
+}
+#result {
+    color: #a00000e9;
+    font-size: 7px;
+    height: 35px;
+    width: 100px;
+    margin: 55px -109px;
+}
 .ep a {
     text-decoration: none;
 }
@@ -120,6 +175,7 @@ h2 {
     width: 60px;
     margin-top: -15px;
     box-shadow: #000000 0px 5px 10px;
+    border: solid #0000004a 1px;
 }
 h1 {
     font-family: Noto Sans Lao Medium;
