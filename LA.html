@@ -13,7 +13,7 @@
         <header class="page-header content">
             <div class="TEXT">
                 <a>ເດັກສາວຄົນໜຶ່ງທີ່ຫລົງໄຫລໃນຄະດີຂ້າຕະກຳທີ່ຍັງບໍ່ສາມາດຄລີ່ຄະດີໄດ້ ຮູ້ຈັກກັນໃນນາມ "ນັກຂ້າແຫ່ງຢູວິໂຊນ້າ" ນາງໄດ້ອອກຕາມຫາທີ່ຢູ່ຂອງຄົນຂ້າຕະກອນ, ຈົນໃນທີ່ສຸດ ນາງກໍພົບບ້ານທີ່ຖືກຖິ້ມຮ້າງຂອງຂ້າຕະກອນໃນປ່າລຶກ. ລາວເຂົ້າໄປຂ້າງໃນ ແລະຄົ້ນພົບໄດອາຣີລັບທີ່ເລົ່າເລື່ອງກ່ຽວກັບຊາຍໜຸ່ມຄົນໜຶ່ງທີ່ຮູ້ຈັກກັນໃນນາມ "ຊາຍຊຸດຂຽວໃນສາຍຝົນ", ຜູ້ທີ່ເຄີຍຊ່ວຍຊີວິດທະນາຍຄົນໜຶ່ງທີ່ເຄີຍຊ່ວຍລາວອອກຈາກຄະດີເມື່ອຫລາຍປີກ່ອນ. ຊາຍໜຸ່ມຄົນນັ້ນຢາກເລີ່ມຕົ້ນຊີວິດໃໝ່ກັບນາງ ໂດຍຫວັງວ່ານາງຈະສາມາດຮັກສາຈິດໃຈທີ່ບິດບ້ຽວຂອງລາວໄດ້, ໂດຍບໍ່ຮູ້ວ່າ... ກຳທີ່ລາວເຄີຍໄດ້ກໍ່ໄດ້ເລີ່ມຕົ້ນຂຶ້ນແລ້ວ. ດັ່ງນັ້ນເດັກສາວຈຶ່ງຈຳເປັນຕ້ອງຊອກຫາເບາະແສເພີ່ມເຕີມຢູ່ໃນບ້ານຫຼັງນີ້ເພື່ອປະຕິດປະຕໍ່ເລື່ອງລາວ ແລະຊອກຫາຄວາມຈິງພ້ອມກັບຕົວຕົນທີ່ແທ້ຈິງຂອງ "ຊາຍຊຸດຂຽວແຫ່ງສາຍຝົນ"</a>
-            </div>
+            </div> 
             <div class="tag"><a>ລະທຶກຂວັນ / ໂລແມນ / 18+</a></div>
                 <div class="cc"><a>ເນື້ອເລື່ອງ & ພາບ ໂດຍ: crazycity2013</a></div>
                 <div><h2>The Lélisin'onne Family series - The Rainy Green Man</h2></div>
@@ -25,32 +25,60 @@
                 <a href="TH.html">TH</a>
             </div>
             <div class="gifksj">
-                <img src="Pictures/TRGMPIC/GIF6.GIF"; width="85px">
+                <img src="TRGMPIC/GIF6.GIF"; width="85px">
             </div>
             <div class="tt">
-                <img src="Pictures/TRGMPIC/TRGM.png"; width="200px">
+                <img src="TRGMPIC/TRGM.png"; width="200px">
             </div>
             <div class="card1">
-                <img src="Pictures/TRGMPIC/GIF5.gif"; width="500px">
+                <img src="TRGMPIC/GIF5.gif"; width="500px">
             </div>
         </header>
         <div class="page-title content">
-        </div>
-        <div class="page-art content">
-        </div>
-        <footer class="page-footer content">
+            <h2>It looks like some pages are missing from the diary. I'll have to look for more.</h2>
+            <input type="text" id="userInput" placeholder="XX/XX/XXXX">
+            <br>
+            <button onclick="checkInput()">check</button>
+            <div id="result"></div>
+            <img src="TRGMPIC/GIFAS.gif"; width="auto"; height="80px">
+        </div> 
+        <main class="page-main content">
             <div class="ep">
                 <a href="LAEP1/LAEP1.html" target="_self">
-                    <img src="Pictures/TRGMPIC/EP1.jpg" alt="ep1">
+                    <img src="TRGMPIC/EP1.jpg" alt="ep1">
                 </a>
                 <div class="description">
                     <h1>ຕອນທີ 1</h1>
                     <p>ຈຸດເລີ່ມຕົ້ນໄດອາລີ້ຂອງພວກເຮົາ</p>
                 </div>
             </div>
-        </footer>
+            <div class="ep">
+                <a href="LAEP2/LAEP2.html" target="_self">
+                    <img src="TRGMPIC/EP2.jpg" alt="ep2">
+                </a>
+                <div class="description">
+                    <h1>ຕອນທີ 2</h1>
+                    <p>ຊ່ວງເວລາຫຼັງສາຍຝົນ</p>
+                </div>
+            </div>
+        </main>
         <div class="page-main content">
         </div>
     </div>
 </body>
 </html>
+
+<script>
+    function checkInput() {
+            let input = document.getElementById("userInput").value;
+            let resultDiv = document.getElementById("result");
+
+            if (input === "111111") {
+                resultDiv.innerHTML = "Furry fandom is an inclusive term that describes the community of furries that span online, local, and international settings";
+            } else if (input === "10011001") {
+                resultDiv.innerHTML = "";
+            } else {
+                resultDiv.innerHTML = "";
+            }
+        }
+</script>
