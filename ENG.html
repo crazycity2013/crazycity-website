@@ -35,22 +35,50 @@
             </div>
         </header>
         <div class="page-title content">
-        </div>
-        <div class="page-art content">
-        </div>
-        <footer class="page-footer content">
+            <h2>It looks like some pages are missing from the diary. I'll have to look for more.</h2>
+            <input type="text" id="userInput" placeholder="XX/XX/XXXX">
+            <br>
+            <button onclick="checkInput()">check</button>
+            <div id="result"></div>
+            <img src="Pictures/TRGMPIC/GIFAS.gif"; width="auto"; height="80px">
+        </div> 
+        <main class="page-main content">
             <div class="ep">
                 <a href="ENGEP1/ENGEP1.html" target="_self">
                     <img src="Pictures/TRGMPIC/EP1.jpg" alt="ep1">
-                </a>
                 <div class="description">
                     <h1>EPISODE 1</h1>
                     <p>the beginning of our diary</p>
                 </a>
+                </div>
             </div>
-        </footer>
-        <div class="page-main content">
+            <div class="ep">
+                <a href="LAEP2/LAEP2.html" target="_self">
+                    <img src="Pictures/TRGMPIC/EP2.jpg" alt="ep2">
+                </a>
+                <div class="description">
+                    <h1>EPISODE 2</h1>
+                    <p>After rain</p>
+                </div>
+            </div>
+        </main>
+        <div class="page-footer content">
         </div>
     </div>
 </body>
 </html>
+
+<script>
+    function checkInput() {
+            let input = document.getElementById("userInput").value;
+            let resultDiv = document.getElementById("result");
+
+            if (input === "111111") {
+                resultDiv.innerHTML = "Furry fandom is an inclusive term that describes the community of furries that span online, local, and international settings";
+            } else if (input === "10011001") {
+                resultDiv.innerHTML = "";
+            } else {
+                resultDiv.innerHTML = "";
+            }
+        }
+</script>
