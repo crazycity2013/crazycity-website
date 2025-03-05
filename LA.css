@@ -1,7 +1,7 @@
 body {
     margin: 0 0 0 0;
     background-image: url(Pictures/TRGMPIC/BGKSJ.png);
-    cursor: url(Pictures/TRGMPIC/cursor.cur), auto;
+        cursor: url(Pictures/TRGMPIC/cursor.cur), auto;
     background-size: 400px 600px;
     width: auto;
     height: auto;
