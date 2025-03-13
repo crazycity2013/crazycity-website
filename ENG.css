@@ -1,26 +1,27 @@
 body {
     margin: 0 0 0 0;
-    background-image: url(Pictures/TRGMPIC/BGKSJ.png);
-        cursor: url(Pictures/TRGMPIC/cursor.cur), auto;
-    background-size: 400px 600px;
+    background-image: url(TRGMPIC/BGKSJ.png);
+    cursor: url('Pictures/TRGMPIC/cursor.cur'), auto;
+    background-size: 600px 1330px;
     width: auto;
     height: auto;
     text-align: -webkit-center;
 }
 a {
-    cursor: url(Pictures/TRGMPIC/cursor.cur), pointer;
+    cursor: url('Pictures/TRGMPIC/cursor.cur'), pointer;
 }
 input, textarea {
-    cursor: url(Pictures/TRGMPIC/cursor.cur), text;
+    cursor: url('Pictures/TRGMPIC/cursor.cur'), text;
 }
 .content {
     box-sizing: border-box;
     border: 0px solid #ff0000;
 }
 .grid {
-    box-shadow: #ffffff 0px 0px 50px;
-    border: ridge #7ea7aa7a 5px;
+    border: ridge #5f8083ce 10px;
     background: linear-gradient(0deg, #040a0ae9 28%, #2a3336c8 49%, #383838c2 59%);
+    background-size: 100px 830px;
+    box-shadow: #ffffff 0px 0px 50px;
     display: inline-grid;
     column-gap: 10px;
     row-gap: 10px;
@@ -28,8 +29,8 @@ input, textarea {
     grid-template-rows: minmax(100px 100px 500px 100px);
     grid-template-areas: 
     'header header header'
-    'art gif title'
-    'main main main'
+    'MAINNN MAINNN MAINNN'
+    'POLI POLI POLI'
     'footer footer footer';
 }
 .page-header {
@@ -56,70 +57,156 @@ input, textarea {
 .page-title {
     grid-area: title;
     background-color: #000000;
-    border: 2px inset gray;
-    width: 180px;
-    height: 100px;
-    margin-right: 20px;
+    border: 6px inset gray;
+    width: 350px;
+    height: 200px;
+    margin-right: 40px;
     display: flex;
+}
+.page-MAINNN {
+    grid-area: MAINNN;
+    display: inline-grid;
+    column-gap: 0px;
+    row-gap: 20px;
+    grid-template-columns: minmax(auto) 1fr 4fr 1fr;
+    grid-template-rows: minmax(100px 100px 500px 100px);
+    grid-template-areas: 
+    'art gif title'
+    'main main main';
 }
 .page-main {
     grid-area: main;
     text-align: left;
-    width: 500px;
-    height: 200px;
+    width: 1000px;
+    height: 300px;
     padding: 10px;
+    border: 0px solid white;
+}
+.page-POLI {
+    grid-area: POLI;
+    width: 1000px;
+    height: auto;
+    border: 0px solid white;
+    display: inline-grid;
+    column-gap: 0px;
+    row-gap: 0px;
+    grid-template-columns: minmax(auto) 1fr 4fr 1fr;
+    grid-template-rows: minmax(100px 100px 100px 100px);
+    grid-template-areas: 
+    'TV PO PO'
+    'TV BO TE';
+}
+.page-PO {
+    grid-area: PO;
+    background-image: url('Pictures/TRGMPIC/GIF1.gif');
+    background-size: 640px 220px;
+    width: 640px;
+    height: 220px;
+    margin: 0 0 0 40px;
+    border: groove #7f856fa6 8px;
+}
+.page-BO {
+    grid-area: BO;
+    background-image: url('Pictures/TRGMPIC/CC.jpg');
+    background-size: 430px 250px;
+    width: 430px;
+    height: 250px;
+    border: 0px solid white;
+    margin: 0px 0 0 40px;
+}
+.page-TE {
+    grid-area: TE;
+    background-image: url('Pictures/TRGMPIC/AA.JPG');
+    background-size: 210px 250px;
+    width: 210px;
+    height: 250px;
+    border: 0px solid white;
+}
+.page-TV {
+    grid-area: TV;
+    width: 320px;
+    height: 300px;
+    border: 0px solid white;
+    column-gap: 0px;
+    row-gap: 0px;
+    grid-template-columns: minmax(auto) 1fr 4fr 1fr;
+    grid-template-rows: minmax(100px 100px 500px 100px);
+    grid-template-areas: 
+    'T T'
+    'CD CD';
+}
+.page-T {
+    grid-area: T;
+    background-image: url('Pictures/TRGMPIC/TV.jpg');
+    background-size: 361px 290px;
+    width:360px;
+    height: 290px;
+    border: 0px solid white;
+}
+.page-CD {
+    grid-area: CD;
+    background-image: url('Pictures/TRGMPIC/AA.JPG');
+    background-size: 360px 180px;
+    width:360px;
+    height: 180px;
+    display: flex;
+    border: 0px solid white;
 }
 .page-footer {
     grid-area: footer;
     height: 0px;
 }
 .gifksj {
-    margin: 6px 0 0 65px;
+    margin: 5px 0 0 125px;
     position: absolute;
 }
 .tt {
     position: absolute;
-    margin: 55px 0 0 10px;
+    margin: 97.4px 0 0 10px;
+}
+.card1 {
+    margin-left: -2px;
 }
 .TEXT {
-    font-family: Noto Sans Lao Light;
-    text-shadow: #727b85 0px 3px 10px;
+    text-shadow: #c8dfea 0px 2px 10px;
     border: 0px solid white;
-    margin: 53px 0 0 238px;
-    width: 245px;
-    font-size: 4.5px;
+    margin: 53px 0 0 465px;
+    line-height: 1.2rem;
+    width: 510px;
+    font-size: 0.7rem;
     position: absolute;
     color: #5d797e;
 }
 .cc {
-    text-shadow: #3a434e 2px 4px 5px;
-    margin: 35px 0 0 240px;
-    font-size: 8px;
+    text-shadow: #576778 1px 3px 5px;
+    margin: 16px 0 0 600px;
+    font-size: 1.2rem;
     position: absolute;
-    color: #374a51;
+    color: #324247;
     width: 250px;
 }
 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: #2b3842 1px 5px 5px;
     margin: 20px 0 0 235px;
-    font-size: 10px;
+    font-size: 1.3rem;
     position: absolute;
     color: #374a51;
-    width: 250px;
+    width: 500px;
 }
 .tag {
     text-shadow: #910000b2 2px 3px 5px;
-    margin: 110px 0 0 305px;
-    font-size: 5px;
+    margin: 200px 0 0 480px;
+    font-size: 0.8rem;
     position: absolute;
     color: #730000;
-    width: 100px;
+    width: 500px;
 }
 .language {
-    margin: 120px 0 0 305px;
-    font-size: 6px;
+    margin: 230px 0 0 475px;
+    font-size: 0.9rem;
     position: absolute;
-    width: 100px;
+    width: 500px;
 }
 .language a {
     text-shadow: #000000 0px 0px 5px,#000000 0px 0px 5px, #000000 0px 0px 10px;
@@ -133,71 +220,175 @@ h2 {
    color: #eb0000;
 }
 .page-title img {
-    margin:  16px 114px;
+    margin:  23px 213px;
     position: absolute;
 }
 .page-title h2 {
     font-family: Angsana New;
     margin: 5px 8px;
-    font-size: 10px;
+    font-size: 1.3rem;
     font-style: oblique;
     color: #637c7f;
-    width: 118px;
-    line-height: 10px;
+    width: 240px;
+    line-height: 1.3rem
 }
 input {
-    font-family: 'Courier New', Courier, monospace; font-style: oblique; font-size: 10px; font-weight: bold;
-    width: 70px;
-    height: 12px;
-    margin: 30px 10px;
+    font-family: 'Courier New', Courier, monospace; font-style: oblique; font-size: 1.2rem; font-weight: bold;
+    width: 180px;
+    height: 20px;
+    margin: 60px 33px;
 }
 button {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold;
-    font-size: 6px;
-    width: 30px;
-    height: 16px;
-    margin: 31px -5px;
-    cursor: url(Pictures/TRGMPIC/cursor.cur), pointer;
+    font-size: 0.8rem;
+    width: 65px;
+    height: 25px;
+    margin: 155px -162px;
+    cursor: url('Pictures/TRGMPIC/cursor.cur'), pointer;
 }
 #result {
     color: #a00000e9;
-    font-size: 7px;
+    font-size: 1.2rem;
     height: 35px;
-    width: 100px;
-    margin: 55px -109px;
+    width: 150px;
+    margin: 95px 50px;
 }
 .ep a {
     text-decoration: none;
+    cursor: url('TRGMPIC/cursor1.cur'), pointer;
 }
 .ep {
     border: 0px solid white;
-    display: inline-block;
-    width: 80px;
+    display: inline-flex;
+    width: 135px;
     height: auto;
-    padding: 5px;
+    padding: 0px;
     text-align: center;
-    margin-top: 10px;
+    margin: 10px 10px;
 }
 .ep img {
-    width: 60px;
+    width: 110px;
     margin-top: -15px;
     box-shadow: #000000 0px 5px 10px;
     border: solid #0000004a 1px;
 }
 h1 {
     font-family: Noto Sans Lao Medium;
-    font-size: 9px;
-    text-shadow: 0 0 5px #507577;
-    color: #8CB9BC;
+    font-size: 1rem;
+    text-shadow: 0 0 5px #709193;
+    color: #659196;
     margin-top: 3px;
 }
 p {
     font-family: Noto Sans Lao Light;
-    font-size: 6px;
+    width: 155px;
+    font-size: 0.8rem;
+    line-height: 1rem;
     font-style: italic;
-    text-shadow: 1px 0 5px #4A7275;
-    color: #60A0A5;
-    margin-top: -7px;
+    text-shadow: 1px 0 5px #8aa5a8;
+    color: #87aeb0;
+    margin-top: -10px;
+}
+.po1 img {
+    position: absolute;
+    z-index: 1;
+    margin: 9px 0 0 -260px;
+}
+.po2 img {
+    position: absolute;
+    margin: 40px 0 0 65px;
+    z-index: 2;
+}
+.YURITEXT {
+    position: absolute;
+    width: 500px;
+    margin: 15px 30px;
+    z-index: 3;
+  }
+.YURITEXT img {
+    width: 250px;
+    margin: 0px 30px;
+  }
+.YURITEXT button {
+    cursor: url('Pictures/TRGMPIC/cursor2.cur'), pointer;
+    background-color: #ff000000;
+    border: none;
+    width: 130px;
+    height: 170px;
+    margin: 0px 0px;
+    
+  }
+.notephone {
+    margin: -280px 0 0 -220px;
+}
+.page-TE img {
+    margin: 0px 0 0 16px;
+}
+#phone {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin: 147px 0 0 101px;
+}
+#show {
+    width: 50px;
+    height: 9px;
+    background-color: #ced9e3;
+    border: 1px solid #940000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.5rem;
+    font-weight: 900;
+    text-align: center;
+    margin: 0px 0 0 2px;
+}
+.NUM {
+    display: grid;
+    grid-template-columns: repeat(3, 16px);
+    gap: 3px;
+    justify-content: center;
+    margin: -52px 0 0 -43px;
+}
+.num {
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    cursor: url('Pictures/TRGMPIC/cursor.cur'), pointer;
+    background: linear-gradient(0deg, #8d8d8d 0%, #757575 11%, #adadad 34%, #e8e8e8 66%);
+    border: 1.5px groove #c1c1c1;
+}
+.NTEXT {
+    font-size: 9px;
+    font-weight: 500;
+    color: #000000;
+    position: absolute;
+    margin: -5px 0 0 -2px;
+}
+.num:hover {
+    background: linear-gradient(0deg, #adadad 0%, #5a5a5a 11%, #6d6d6d 24%, #919191 41%);
+}
+#submit {
+    margin: -125px 0 0 -100px;
+    width: 160px;
+    height: 35px;
+    background-color: #01e40100;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    cursor: url('Pictures/TRGMPIC/cursor.cur'), pointer;
+}
+#reset {
+    width: 40px;
+    height:140px;
+    margin: -150px 0 0 90px;
+    background-color: #ffffff00;
+    transform: rotate(20deg);
+    display: none;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    cursor: url('Pictures/TRGMPIC/cursor.cur'), pointer;
 }
 /*----- custom scrollbar ----- */
 ::-webkit-scrollbar{
