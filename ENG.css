@@ -1,6 +1,6 @@
 body {
     margin: 0 0 0 0;
-    background-image: url(TRGMPIC/BGKSJ.png);
+    background-image: url('TRGMPIC/BGKSJ.png');
     cursor: url('Pictures/TRGMPIC/cursor.cur'), auto;
     background-size: 600px 1330px;
     width: auto;
