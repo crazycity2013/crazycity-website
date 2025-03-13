@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The Rainy Green Man Comic</title>
+    <title>The Rainy Green Man</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&family=Noto+Serif+Lao:wght@100..900&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Blog</title>
@@ -16,7 +19,6 @@
             </div> 
             <div class="tag"><a>ລະທຶກຂວັນ / ໂລແມນ / 18+</a></div>
                 <div class="cc"><a>ເນື້ອເລື່ອງ & ພາບ ໂດຍ: crazycity2013</a></div>
-                <div><h2>The Lélisin'onne Family series - The Rainy Green Man</h2></div>
             <div class="language">
                 <a href="ENG.html">ENG</a>
                 <a> / </a>
@@ -25,43 +27,87 @@
                 <a href="TH.html">TH</a>
             </div>
             <div class="gifksj">
-                <img src="Pictures/TRGMPIC/GIF6.GIF"; width="85px">
+                <img src="Pictures/TRGMPIC/GIF6.GIF"; width="175px">
             </div>
             <div class="tt">
-                <img src="Pictures/TRGMPIC/TRGM.png"; width="200px">
+                <img src="Pictures/TRGMPIC/TRGM.png"; width="430px">
             </div>
             <div class="card1">
-                <img src="Pictures/TRGMPIC/GIF5.gif"; width="500px">
+                <img src="Pictures/TRGMPIC/GIF5.gif"; width="1002px">
             </div>
         </header>
-        <div class="page-title content">
-            <h2>It looks like some pages are missing from the diary. I'll have to look for more.</h2>
-            <input type="text" id="userInput" placeholder="XX/XX/XXXX">
-            <br>
-            <button onclick="checkInput()">check</button>
-            <div id="result"></div>
-            <img src="Pictures/TRGMPIC/GIFAS.gif"; width="auto"; height="80px">
-        </div> 
-        <main class="page-main content">
-            <div class="ep">
-                <a href="LAEP1/LAEP1.html" target="_self">
-                    <img src="Pictures/TRGMPIC/EP1.jpg" alt="ep1">
-                    <div class="description">
-                        <h1>ຕອນທີ 1</h1>
-                        <p>ຈຸດເລີ່ມຕົ້ນໄດອາລີ້ຂອງພວກເຮົາ</p>
+        <div class="page-MAINNN content">
+            <div class="page-title content">
+                <h2>It looks like some pages are missing from the diary. I'll have to look for more.</h2>
+                <input type="text" id="userInput" placeholder="XX/XX/XXXX">
+                <br>
+                <button onclick="checkInput()">check</button>
+                <div id="result"></div>
+                <img src="Pictures/TRGMPIC/GIFAS.gif"; width="auto"; height="165px">
+            </div> 
+            <main class="page-main content">
+                <div class="ep">
+                    <a href="LAEP1/LAEP1.html" target="_self">
+                        <img src="Pictures/TRGMPIC/EP1.jpg" alt="ep1">
+                        <div class="description">
+                            <h1>ຕອນທີ 1</h1>
+                            <p>ຈຸດເລີ່ມຕົ້ນໄດອາລີ້ຂອງພວກເຮົາ</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="ep">
+                    <a href="LAEP2/LAEP2.html" target="_self">
+                        <img src="Pictures/TRGMPIC/EP2.jpg" alt="ep2">
+                        <div class="description">
+                            <h1>ຕອນທີ 2</h1>
+                            <p>ຊ່ວງເວລາຫຼັງສາຍຝົນ</p>
+                        </div>
+                    </a>
+                </div>
+            </main>
+        </div>
+        <div class="page-POLI content">
+            <div class="page-PO content">
+                <div class="YURITEXT">
+                    <br>
+                    <button onclick="changeImage()"></button>
+                    <img id="imageDisplay" src="Pictures/TRGMPIC/YURI0.png">
+                  </div>
+                <div class="po1"><img src="Pictures/TRGMPIC/GIF2.GIF"; width="auto"; height="195px"></div>
+                <div class="po2"><img src="Pictures/TRGMPIC/GIF3.GIF"; width="auto"; height="145px"></div>
+            </div>
+            <div class="page-BO content"></div>
+            <div class="page-TV content">
+                <div class="page-T content"></div>
+                <div class="page-CD content"></div>
+            </div>
+            <div class="page-TE content">
+                <div id="phone">
+                    <button id="submit" onclick="checkCode()"></button>
+                    <button id="reset" onclick="showImageD()"></button>
+                    <div class="NUM">
+                        <button class="num" onclick="pressKey('1')"><div class="NTEXT">1</div></button>
+                        <button class="num" onclick="pressKey('2')"><div class="NTEXT">2</div></button>
+                        <button class="num" onclick="pressKey('3')"><div class="NTEXT">3</div></button>
+                        <button class="num" onclick="pressKey('4')"><div class="NTEXT">4</div></button>
+                        <button class="num" onclick="pressKey('5')"><div class="NTEXT">5</div></button>
+                        <button class="num" onclick="pressKey('6')"><div class="NTEXT">6</div></button>
+                        <button class="num" onclick="pressKey('7')"><div class="NTEXT">7</div></button>
+                        <button class="num" onclick="pressKey('8')"><div class="NTEXT">8</div></button>
+                        <button class="num" onclick="pressKey('9')"><div class="NTEXT">9</div></button>
+                        <button class="num" onclick="pressKey('*')"><div class="NTEXT">*</div></button>
+                        <button class="num" onclick="pressKey('0')"><div class="NTEXT">0</div></button>
+                        <button class="num" onclick="pressKey('#')"><div class="NTEXT">#</div></button>
+                        <div id="show"></div>
                     </div>
-                 </a>
-             </div>
-            <div class="ep">
-                <a href="LAEP2/LAEP2.html" target="_self">
-                    <img src="Pictures/TRGMPIC/EP2.jpg" alt="ep2">
-                    <div class="description">
-                        <h1>ຕອນທີ 2</h1>
-                        <p>ຊ່ວງເວລາຫຼັງສາຍຝົນ</p>
-                    </div>
-                 </a>
-             </div>
-        </main>
+                </div>
+                <img id="image" src="Pictures/TRGMPIC/T1.png" width="250px"> 
+            
+                <audio id="soundA" src="Pictures/TRGMPIC/call phone.mp3"></audio>
+                <audio id="soundB" src=""></audio>
+                <div class="notephone"><img src="Pictures/TRGMPIC/TEnote.png"; width="auto"; height="60px"></div>
+            </div>
+        </div>
         <div class="page-footer content">
         </div>
     </div>
@@ -76,9 +122,56 @@
             if (input === "111111") {
                 resultDiv.innerHTML = "Furry fandom is an inclusive term that describes the community of furries that span online, local, and international settings";
             } else if (input === "10011001") {
-                resultDiv.innerHTML = "";
+                resultDiv.innerHTML = "Who read are gay";
             } else {
                 resultDiv.innerHTML = "";
             }
         }
+
+    let inputCode = "";
+    const correctCode = "19669611"; // รหัสที่ถูกต้อง
+
+    function pressKey(num) {
+        if (inputCode.length < 8) {
+            inputCode += num;
+            document.getElementById("show").textContent = inputCode;
+        }
+    }
+
+    function checkCode() {
+        let img = document.getElementById("image");
+        let soundA = document.getElementById("soundA");
+        let soundB = document.getElementById("soundB");
+        let resetBtn = document.getElementById("reset");
+
+        if (inputCode === correctCode.substring(0, 8)) {
+                img.src = "Pictures/TRGMPIC/T2.png"; // เปลี่ยนเป็นรูป B
+                soundA.play();
+                soundA.onended = function() {
+                    soundB.play();
+                };
+            } else {
+                img.src = "Pictures/TRGMPIC/T2.png"; // เปลี่ยนเป็นรูป C
+                soundB.play();
+            }
+            resetBtn.style.display = "inline-block"; // แสดงปุ่มเปลี่ยนไป D
+            inputCode = ""; // รีเซ็ตรหัส
+            document.getElementById("submit").style.display = "none";
+            document.getElementById("show").textContent = ""; // ล้างช่องแสดงผล
+        }
+
+
+        function showImageD() {
+            document.getElementById("submit").style.display = "";
+            document.getElementById("image").src = "Pictures/TRGMPIC/T1.png"; // เปลี่ยนเป็นภาพ D
+            document.getElementById("reset").style.display = "none"; // ซ่อนปุ่มเปลี่ยนไป D
+            
+        }
+        const images = ["Pictures/TRGMPIC/YURI0.png", "Pictures/TRGMPIC/YURI1.png", "Pictures/TRGMPIC/YURI2.png", "Pictures/TRGMPIC/YURI3.png", "Pictures/TRGMPIC/YURI4.png", "Pictures/TRGMPIC/YURI5.png", "Pictures/TRGMPIC/YURI6.png", "Pictures/TRGMPIC/YURI7.png", "Pictures/TRGMPIC/YURI8.png", "Pictures/TRGMPIC/YURI9.png"];
+    let currentIndex = 0; // เริ่มที่ภาพแรก
+
+    function changeImage() {
+      currentIndex = (currentIndex + 1) % images.length; // วนกลับไปที่ A เมื่อถึง J
+      document.getElementById("imageDisplay").src = images[currentIndex];
+    }
 </script>
