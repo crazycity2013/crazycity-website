@@ -1,6 +1,6 @@
 body {
     margin: 0 0 0 0;
-    background-image: url('TRGMPIC/BGKSJ.png');
+    background-image: url('Pictures/TRGMPIC/BGKSJ.png');
     cursor: url('Pictures/TRGMPIC/cursor.cur'), auto;
     background-size: 600px 1330px;
     width: auto;
@@ -255,7 +255,7 @@ button {
 }
 .ep a {
     text-decoration: none;
-    cursor: url('TRGMPIC/cursor1.cur'), pointer;
+    cursor: url('Pictures/TRGMPIC/cursor1.cur'), pointer;
 }
 .ep {
     border: 0px solid white;
