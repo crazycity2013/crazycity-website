@@ -116,7 +116,7 @@ input, textarea {
 }
 .page-TE {
     grid-area: TE;
-    background-image: url('Pictures/TRGMPIC/AA.jpg');
+    background-image: url('Pictures/TRGMPIC/AA.JPG');
     background-size: 210px 250px;
     width: 210px;
     height: 250px;
@@ -145,7 +145,7 @@ input, textarea {
 }
 .page-CD {
     grid-area: CD;
-    background-image: url('Pictures/TRGMPIC/AA.jpg');
+    background-image: url('Pictures/TRGMPIC/AA.JPG');
     background-size: 360px 180px;
     width:360px;
     height: 180px;
