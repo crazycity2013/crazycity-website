@@ -230,6 +230,8 @@ h2 {
     font-style: oblique;
     color: #637c7f;
     width: 240px;
+    height: 50px;
+    display: inline;
     line-height: 1.3rem
 }
 input {
