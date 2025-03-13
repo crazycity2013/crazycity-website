@@ -98,7 +98,7 @@ input, textarea {
 }
 .page-PO {
     grid-area: PO;
-    background-image: url(Pictures/TRGMPIC/GIF1.gif);
+    background-image: url('Pictures/TRGMPIC/GIF1.gif');
     background-size: 640px 220px;
     width: 640px;
     height: 220px;
@@ -107,7 +107,7 @@ input, textarea {
 }
 .page-BO {
     grid-area: BO;
-    background-image: url(Pictures/TRGMPIC/CC.jpg);
+    background-image: url('Pictures/TRGMPIC/CC.jpg');
     background-size: 430px 250px;
     width: 430px;
     height: 250px;
@@ -116,7 +116,7 @@ input, textarea {
 }
 .page-TE {
     grid-area: TE;
-    background-image: url(Pictures/TRGMPIC/AA.jpg);
+    background-image: url('Pictures/TRGMPIC/AA.jpg');
     background-size: 210px 250px;
     width: 210px;
     height: 250px;
@@ -137,7 +137,7 @@ input, textarea {
 }
 .page-T {
     grid-area: T;
-    background-image: url(Pictures/TRGMPIC/TV.jpg);
+    background-image: url('Pictures/TRGMPIC/TV.jpg');
     background-size: 361px 290px;
     width:360px;
     height: 290px;
@@ -145,7 +145,7 @@ input, textarea {
 }
 .page-CD {
     grid-area: CD;
-    background-image: url(Pictures/TRGMPIC/AA.jpg);
+    background-image: url('Pictures/TRGMPIC/AA.jpg');
     background-size: 360px 180px;
     width:360px;
     height: 180px;
