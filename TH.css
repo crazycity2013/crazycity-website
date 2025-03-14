@@ -212,6 +212,7 @@ h2 {
     width: 300px;
 }
 .language a {
+    font-family: "Lora", serif;
     text-shadow: #000000 0px 0px 5px,#000000 0px 0px 5px, #000000 0px 0px 10px;
     color: #700000;
     text-decoration: none;
