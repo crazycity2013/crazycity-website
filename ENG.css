@@ -186,10 +186,10 @@ input, textarea {
     font-size: 1.1rem;
     position: absolute;
     color: #324247;
-    width: auto;
+    width: 800px;
 }
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Lora", serif;
     text-shadow: #2b3842 1px 5px 5px;
     margin: 20px 0 0 235px;
     font-size: 1.3rem;
@@ -198,6 +198,7 @@ h2 {
     width: 500px;
 }
 .tag {
+    font-family: "Lora", serif;
     text-shadow: #910000b2 2px 3px 5px;
     margin: 200px 0 0 480px;
     font-size: 0.8rem;
@@ -231,7 +232,7 @@ h2 {
     font-family: "Lora", serif;
     font-style: italic;
     margin: 5px 8px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-style: oblique;
     color: #637c7f;
     width: 240px;
