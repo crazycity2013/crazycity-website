@@ -290,10 +290,9 @@ h1 {
 }
 p {
     font-family: "Lora", serif;
-    width: 155px;
-    font-size: 0.8rem;
-    line-height: 1rem;
     font-style: italic;
+    width: 155px;
+    font-size: 0.7rem;
     text-shadow: 1px 0 5px #8aa5a8;
     color: #87aeb0;
     margin-top: -10px;
