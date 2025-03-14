@@ -227,12 +227,15 @@ h2 {
     position: absolute;
 }
 .page-title h2 {
-    font-family: Angsana New;
+    font-family: "Lora", serif;
+    font-style: italic;
     margin: 5px 8px;
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     font-style: oblique;
     color: #637c7f;
     width: 240px;
+    height: 50px;
+    display: inline;
     line-height: 1.3rem
 }
 input {
