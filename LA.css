@@ -197,13 +197,13 @@ h2 {
     width: 500px;
 }
 .tag {
-    font-family: "Lora", serif;
+    font-family: "Noto Serif Lao", serif;
     text-shadow: #910000b2 2px 3px 5px;
-    margin: 200px 0 0 480px;
+    margin: 200px 0 0 625px;
     font-size: 0.8rem;
     position: absolute;
     color: #730000;
-    width: 500px;
+    width: 200px;
 }
 .language {
     width: 200px;
@@ -212,6 +212,7 @@ h2 {
     position: absolute;
 }
 .language a {
+    font-family: "Lora", serif;
     text-shadow: #000000 0px 0px 5px,#000000 0px 0px 5px, #000000 0px 0px 10px;
     color: #700000;
     text-decoration: none;
