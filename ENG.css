@@ -179,6 +179,8 @@ input, textarea {
     color: #5d797e;
 }
 .cc {
+    font-family: "Lora", serif;
+    font-weight: 300;
     text-shadow: #576778 1px 3px 5px;
     margin: 16px 0 0 600px;
     font-size: 1.2rem;
