@@ -182,7 +182,7 @@ input, textarea {
     font-family: "Lora", serif;
     font-weight: 400;
     text-shadow: #42505f 1px 3px 5px;
-    margin: 16px 0 0 100px;
+    margin: 16px 0 0 400px;
     font-size: 1.1rem;
     position: absolute;
     color: #324247;
@@ -281,14 +281,15 @@ button {
     border: solid #0000004a 1px;
 }
 h1 {
-    font-family: Noto Sans Lao Medium;
+    font-family: "Lora", serif;
+    font-weight: 600;
     font-size: 1rem;
     text-shadow: 0 0 5px #709193;
     color: #659196;
     margin-top: 3px;
 }
 p {
-    font-family: Noto Sans Lao Light;
+    font-family: "Lora", serif;
     width: 155px;
     font-size: 0.8rem;
     line-height: 1rem;
