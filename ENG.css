@@ -169,7 +169,7 @@ input, textarea {
 }
 .TEXT {
     font-family: "Lora", serif;
-    text-shadow: #c8dfea 0px 2px 10px;
+    text-shadow: #c8dfea 0px 2px 8px;
     border: 0px solid white;
     margin: 55px 0 0 460px;
     line-height: 1.2rem;
@@ -180,13 +180,13 @@ input, textarea {
 }
 .cc {
     font-family: "Lora", serif;
-    font-weight: 600;
-    text-shadow: #576778 1px 3px 5px;
+    font-weight: 400;
+    text-shadow: #42505f 1px 3px 5px;
     margin: 16px 0 0 600px;
     font-size: 1.1rem;
     position: absolute;
     color: #324247;
-    width: 500px;
+    width: auto;
 }
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -212,6 +212,7 @@ h2 {
     width: 500px;
 }
 .language a {
+    font-family: "Lora", serif;
     text-shadow: #000000 0px 0px 5px,#000000 0px 0px 5px, #000000 0px 0px 10px;
     color: #700000;
     text-decoration: none;
@@ -227,7 +228,8 @@ h2 {
     position: absolute;
 }
 .page-title h2 {
-    font-family: Angsana New;
+    font-family: "Lora", serif;
+    font-style: italic;
     margin: 5px 8px;
     font-size: 1.3rem;
     font-style: oblique;
