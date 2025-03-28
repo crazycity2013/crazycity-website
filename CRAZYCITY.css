@@ -111,6 +111,7 @@ body {
     padding: 15px;
 }
 p {
+    font-family: "Ponomar", system-ui;
     font-size: 0.82rem;
 }
 
