@@ -113,6 +113,7 @@ body {
 p {
     font-family: "Ponomar", system-ui;
     font-size: 0.82rem;
+    line-height: 1.2rem;
 }
 
 .Images img{
