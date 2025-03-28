@@ -2,7 +2,7 @@ body {
     margin: 0 0 0 0;
     color: aliceblue;
     background-image: url(Pictures/GIFS/BG1.gif);
-    background-size: 5px;
+    background-size: 10px;
     width: auto;
     height: auto;
     text-align: -webkit-center;
@@ -13,7 +13,8 @@ body {
     padding: 3px;
 }
 .grid {
-    box-shadow: #86dbee 0px 0px 20px;
+    box-shadow: #86dbee 0px 0px 50px;
+    border: ridge 10px #9d9d9d;
     background-image: url(Pictures/GIFS/BG2.gif);
     background-size: 30px;
     display: inline-grid;
@@ -22,86 +23,127 @@ body {
     grid-template-columns: minmax(auto) 1fr 4fr 1fr;
     grid-template-rows: minmax (100px 100px 100px 100px 100px 100px);
     grid-template-areas: 
-    'header header header'
-    'scotta scotta scotta'
-    'leftbar leftbar leftbar'
-    'footer footer footer'
-    'rightbar rightbar rightbar'
-    'main main main';
+    'bb header header header aa'
+    'bb scotta scotta scotta aa'
+    'bb leftbar main rightbar aa'
+    'bb footer footer footer aa';
+}
+.page-aa {
+    grid-area: aa;
+    border: 0px solid white;
+    width: 100px;
+}
+.page-bb {
+    grid-area: bb;
+    border: 0px solid white;
+    width: 100px;
+}
+.page-dd {
+    grid-area: dd;
+    border: 0px solid white;
+    height: 100px;
+}
+.page-ee {
+    grid-area: ee;
+    border: 0px solid white;
+    width: 335px;
+    height: 150px;
+}
+.page-ff {
+    grid-area: ff;
+    border: 0px solid white;
+    width: 150px;
+    height: 150px;
+    margin-left: -30px;
+}
+.page-qq {
+    grid-area:qq ;
+    border: 0px solid white;
+    height: 100px;
 }
 .page-header {
     grid-area: header;
+    border: 0px solid white;
 }
 .page-scotta {
     grid-area: scotta;
-    height: 80px;
+    height: 150px;
+    border: 0px solid white;
+}
+.page-main {
+    grid-area: main;
+    border: 0px solid white;
 }
 .page-leftbar {
     grid-area: leftbar;
+    border: 0px solid white;
+    width: 180px;
 }
 .page-rightbar {
     grid-area: rightbar;
+    border: 0px solid white;
+    width: 180px;
 }
 .page-footer {
     grid-area: footer;
     padding: 10px;
-}
-.page-main {
-    grid-area: main;
+    border: 0px solid white;
+    height: 20px;
 }
 .top-section a {
     font-size: 20px;
     margin: -30px 0 0 -200px;
     position: absolute;
 }
+.ADS {
+    margin: 40px 0 0 0;
+}
+.ADS img {
+    width: 85px;
+    margin-bottom: 15px;
+}
 .note {
-    border: 2px solid #dbeaea92;
+    border: 5px solid #dbeaea92;
     background: linear-gradient(0deg, #2d5d77dd 0%, #153b52e7 50%, #021f33e4 100%);
     overflow-wrap: break-word;
-    width: 350px;
+    width: 500px;
+    height: 310px;
     padding: 15px;
 }
 p {
-    font-size: 6px;
+    font-size: 0.82rem;
 }
 
-.left-images img{
-    display: inline-block;
-    width: 100px;
-    border: 2px inset gray;
+.Images img{
+    width: 170px;
+    border: 5px ridge gray;
 }
 .card1 {
-    padding: 5px;
+    margin: 1px 0 0 -4px ;
+    padding: 2px;
     display: inline-block;
-}
-.right-images img{
-    padding: 10px;
-    display: block;
-     width:100px;
-     height: auto;
 }
 .low-images {
     display: inline-flex;
-    width: 450px;
-    height: 50px;
+    width: 850px;
+    height: 90px;
     gap: 10px;
     margin-top: 10px;
-    padding: 15px;
 }
 h1 {
-    font-size: 30px;
+    font-size: 50px;
 }
 
 /*----- custom scrollbar ----- */
 ::-webkit-scrollbar{
-    width: 5px;
+    width: 15px;
 }
 ::-webkit-scrollbar-track{
     background: #000000;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #214e55;
-    box-shadow: inset -1px -1px #000000, inset 1px 1px #3d747b, inset -2px -2px #002c32, inset 2px 2px #3d747b;
+    box-shadow: inset -2px -1px #000000, inset 2px 2px #3d747b, inset -2px -2px #002c32, inset 3px 3px #3d747b;
 }
 ::-webkit-scrollbar-corner {
     background: #1d3032;
